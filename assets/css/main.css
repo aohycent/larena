@@ -121,3 +121,9 @@
             text-align: center;
             padding: 20px;
         }
+.avn-nav-search {
+       height: 35px;
+       width: 50%;
+       margin-right: 10px;
+       padding-right: 10px;
+}
