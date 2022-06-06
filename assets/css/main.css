@@ -1,0 +1,123 @@
+ *:after,
+        *:before {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            text-align: relative;
+            background: linear-gradient(to left, #E0EAFC , #CFDEF3);
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .avm {
+            text-align: center;
+        }
+        
+        .avm iframe {
+           border-radius: 15px;
+           margin: 25px 0;
+           border-color: #454545;
+           border: 10px solid;
+           background: #393939;
+           height: 600px;
+           width: 345px;
+        }
+
+        .avm iframe body {
+            border-radius: 15px;
+            background: #393939;
+            background-image: url('/assets/matic/avms.png');
+            background-repeat: no-repeat;
+        }
+        .packet {
+            padding: 3px;
+            margin: 3px;
+            border: 2px dotted;
+            border-color: maroon;
+        }
+        .hpacket{
+            text-align: center !important;
+        }
+        .horiz {
+            max-width: 50%;
+            border: 1px dotted;
+            border-color: maroon;
+            display: flex;
+            position: relative;
+        }
+        .varti {
+            max-height: 400px;
+            border: 1px dotted;
+            border-color: maroon;
+        }
+        .dropdown-toggle:focus {
+            outline:0
+        }
+        .pright {
+            position: absolute;
+            text-align: right;
+            right: 0;
+        }
+        .pleft {
+            position: relative;
+            text-align: left;
+            left: 0;
+        }
+
+        .ctl {
+            position: sticky;
+            bottom: 0;
+            object-position: center;
+            text-align: center;
+            background-color: #00002f;
+            padding: 10px;
+        }
+        .ctl button {
+            float: center;
+            border-radius: 50px;
+            max-height: 30em;
+            max-width: 30em;
+            padding: 20px;
+            text-shadow: 1px 1px whitesmoke;
+        }
+        .logo_icon {
+            max-width: 40px;
+            max-height: 40px;
+        }
+        .tbar {
+            position: sticky;
+            top: 0;
+            box-shadow: -2px 3px 10px navy;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 3px;
+            margin-bottom: 1em;
+            z-index: 4;
+        }
+        .h100 {
+            height: 100%;
+        }
+        .screen {
+            height: 500px;
+            max-height: 800px;
+            width: 100%;
+        }
+        .hero {
+            background-color: #393939;
+            color: white;
+            border-radius: 8px;
+            font: monospace;
+            font-size: 1em;
+            width: 50%;
+            height: 180px;
+            margin-left: 10px;
+            text-align: center;
+            padding: 20px;
+        }
