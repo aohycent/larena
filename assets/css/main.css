@@ -115,15 +115,15 @@
             border-radius: 8px;
             font: monospace;
             font-size: 1em;
-            width: 50%;
+            width: 48%;
             height: 180px;
             margin-left: 10px;
             text-align: center;
             padding: 20px;
+            box-shadow: -2px 1px 2px gray;
         }
 .avn-nav-search {
        height: 35px;
        width: 50%;
-       margin: 1rem;
-       padding: 1rem;
+       margin-right: 10px;
 }
