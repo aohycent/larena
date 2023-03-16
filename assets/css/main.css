@@ -88,8 +88,7 @@
             text-shadow: 1px 1px whitesmoke;
         }
         .logo_icon {
-            max-width: 40px;
-            max-height: 40px;
+            height: 50%;
         }
         .tbar {
             position: sticky;
@@ -121,8 +120,8 @@
             padding: 20px;
             box-shadow: -2px 1px 2px gray;
         }
-.avn-nav-search {
-       height: 35px;
-       width: 50%;
-       margin-right: 10px;
-}
+       .avn-nav-search {
+              height: 35px;
+              width: 48%;
+              margin-right: 10px;
+       }
