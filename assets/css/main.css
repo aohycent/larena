@@ -105,8 +105,7 @@
             height: 100%;
         }
         .screen {
-            height: 500px;
-            max-height: 800px;
+            height: 100em;
             width: 100%;
         }
         .hero {
