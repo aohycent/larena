@@ -1,0 +1,11 @@
+#! /usr/bin/env bow
+
+'bow ← BOW [];
+:bow 'Layout ← Π
+  ± 'Header Π
+  ± 'Body Π
+  ± 'Footer;
+
+bow run;
+
+: Pager(0| [Layout]) ⟩
