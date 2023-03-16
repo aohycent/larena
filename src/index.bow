@@ -6,6 +6,6 @@
   ± 'Body Π
   ± 'Footer;
 
-bow run;
 
-: Pager(0| [Layout]) ⟩
+
+bow 'Pager (0| [Layout]);
