@@ -167,15 +167,14 @@ body::-webkit-scrollbar-thumb {
        }
 .applet{
     padding: 1em;
-    margin: 1em;
-    height: 8em;
-    width: 8em;
-    border-radius: 1em;
-    background: white;
+    height: auto;
+    width: auto;
+    border-radius: 4em;
+    background: var(--avm-bg);
     box-shadow: -3px 2px 1px gray;
 }
 .widget{
-    width: 12rem;
-    height: 12rem;
-    border: 0px;
+    width: 4em;
+    height: 4em;
+    border: 1px;
 }
