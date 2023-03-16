@@ -1,15 +1,49 @@
- *:after,
-        *:before {
-            margin: 0;
-            padding: 0;
-        }
-        
-        html,
-        body {
-            padding: 0;
-            margin: 0;
-        }
-        
+:root{
+       --avm-bg : linear-gradient(to left, #e0eafc,#cfdef3);
+       --avm-font:'Roboto',sans-serif;
+}
+*,::after,::before {
+       -webkit-box-sizing: border-box;
+       box-sizing: border-box;
+}
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+}
+html{
+       scroll-behavior: smooth;
+}
+
+body {
+       user-select: none;
+       background: var(--avm-bg);
+       font-family: var(--avm-font);
+       -webkit-text-size-adjust: 100%;
+       -webkit-tap-highlight-color: transparent;
+       -webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background: gray;
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #00002f;
+  cursor: pointer;
+}
         body {
             text-align: relative;
             background: linear-gradient(to left, #E0EAFC , #CFDEF3);
@@ -131,3 +165,17 @@
               width: 48%;
               margin-right: 10px;
        }
+.applet{
+    padding: 1em;
+    margin: 1em;
+    height: 8em;
+    width: 8em;
+    border-radius: 1em;
+    background: white;
+    box-shadow: -3px 2px 1px gray;
+}
+.widget{
+    width: 12rem;
+    height: 12rem;
+    border: 0px;
+}
