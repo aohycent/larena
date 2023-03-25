@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href="/assets/css/main.css" rel="stylesheet"/>
+      <title>${{title}}</title>
+    </head>
+    <body class="h100">
+        <div class="tbar">
+            <img class="logo_icon pleft" src="${{icon}}"><input id="inSearch" type="search" class="pright avm-nav-search" name="q" placeholder="Search Here..">
+        </div>
+        <section class="screen">
+             ${{content}}
+        </section>
+        <div class="packet">
+              <div class="hpacket">${{footer}}</div>
+          </div>
+        <div class='ctl'>
+            <button></button>
+        </div>
+    </body>
+</html>
