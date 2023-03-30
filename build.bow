@@ -1,3 +1,0 @@
-#! /usr/bin/env bow
-
-bow build -f '_bowinc.env';
