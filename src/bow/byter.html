@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="bowByter" ng-controller="bowCtrl">
+<head>
+  <title>{{title}}</title>
+</head>
+<script src="./scripts.js"></script>
+<body>
+
+<div>
+  <p>My first expression: {{ 5 + 5 }}</p>
+  <p>Name: <input type="text" ng-model="title"></p>
+  <p><input ng-model="coditorwidth" type="number" value="{{coditorwidth}}" /> </p>
+</div>
+<section>
+  <iframe name="bowAppview" src="coditor.html" style="border: 0;width: 100%;height: {{coditorwidth}}vw;"></iframe>
+</section>
+<script>
+var app = angular.module('bowByter', []);
+app.controller('bowCtrl', function($scope) {
+  $scope.title= "BOW BYTER - Bow Application Bundler";
+  $scope.coditorwidth= "85";
+});
+</script>
+</body>
+</html>
