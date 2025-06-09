@@ -2,7 +2,7 @@
 An Advanced Learning & Project Management Hub
 ![Larena Logo - 
 featuring a stylized, interlocked "L" and "A" forming an abstract, shield-like crest with sharp, angular lines. The design is predominantly in deep blues and purples, suggesting technology and knowledge. The background is transparent, making it versatile for various applications.
-]("https://aohycent.github.io/larena/logo.jpg")
+](https://aohycent.github.io/larena/logo.jpg)
 
 Larena, or Legendary Arena, is an advanced GitHub static page designed to revolutionize the way you learn and manage your development projects. More than just a static site, Larena serves as a dynamic hub that streamlines your learning process, simplifies project building, and significantly eases debugging efforts.
 
